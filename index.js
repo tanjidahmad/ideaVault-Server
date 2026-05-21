@@ -233,7 +233,7 @@ async function run() {
   
     app.patch(
       "/ideas/:id",
-      // verifyToken,
+     
       async (req, res) => {
 
         const { id } = req.params;
@@ -259,7 +259,7 @@ async function run() {
 
     app.delete(
       "/ideas/:id",
-      // verifyToken,
+      
       async (req, res) => {
 
         const { id } = req.params;
@@ -422,7 +422,7 @@ run().catch(console.dir);
 
 
 
-// SERVER RUN
+
 app.listen(PORT, () => {
 
   console.log(
