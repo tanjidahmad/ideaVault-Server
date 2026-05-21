@@ -192,7 +192,7 @@ async function run() {
 
 
 
-      // },
+     
       async (req, res) => {
 
         const { id } = req.params;
@@ -300,7 +300,7 @@ async function run() {
 
     app.post(
       "/comments",
-      // verifyToken,
+      
       async (req, res) => {
 
         const commentData = req.body;
@@ -405,9 +405,7 @@ async function run() {
 
 
 
-    // await client
-    //   .db("admin")
-    //   .command({ ping: 1 });
+    
 
     console.log(
       "MongoDB Connected Successfully"
