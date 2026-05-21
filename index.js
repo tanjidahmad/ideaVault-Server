@@ -24,19 +24,19 @@ const PORT = process.env.PORT || 8000;
 
 
 
-// Middleware
+
 app.use(cors());
 
 app.use(express.json());
 
 
 
-// MongoDB URI
+
 const uri = process.env.MONGODB_URL;
 
 
 
-// Mongo Client
+
 const client = new MongoClient(uri, {
 
   serverApi: {
@@ -92,7 +92,7 @@ async function run() {
 
   try {
 
-    // await client.connect();
+   
 
 
 
@@ -135,7 +135,7 @@ async function run() {
 
 
 
-      // SEARCH BY TITLE
+     
       if (search) {
 
         query.title = {
