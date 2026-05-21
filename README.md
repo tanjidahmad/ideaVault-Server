@@ -38,4 +38,12 @@ Backend API for the IdeaVault platform. This server provides secure authenticati
   - CORS support
   - REST API structure
 
-  
+  ## Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB
+- Better Auth
+- JOSE JWT
+- dotenv
+- CORS
