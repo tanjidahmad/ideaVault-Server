@@ -188,14 +188,7 @@ async function run() {
     app.get(
        "/ideas/:id",verifyToken,
 
-// const header=req.headers.authorization
 
-//  console.log(header)
-// // if(header==='logged in'){
-// //   console.log(header)
-//  next()
-// // }
-// // else{ res.status(401).json({message:'unauthorized'})}
 
 
 
